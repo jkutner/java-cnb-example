@@ -1,0 +1,5 @@
+build:
+  buildpacks:
+    - "https://github.com/heroku/java-buildpack"
+run:
+  web: /lifecycle/launcher
